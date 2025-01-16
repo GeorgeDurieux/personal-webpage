@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.25rem;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Main body */
+
+section {
+    min-height: 96vh;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: relative;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.project-card {
+    padding-top: 5rem !important;
+}
+
+.section-arrow {
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+/* Images */
+
+.profile-img {
+    width: 100%; 
+    max-width: 250px; 
+    height: auto; 
+    object-fit: cover;
+}
+
+.bw-profile-img {
+    max-width: 250px; 
+    height: auto; 
+    object-fit: cover;
+
+    -webkit-mask-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%), 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%), 
+    linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%), 
+    linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%); 
+  
+    mask-image: 
+    linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%), 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%), 
+    linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%), 
+    linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 20%);
+
+    -webkit-mask-composite: destination-in; 
+    mask-composite: intersect;
+  
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+  
+
