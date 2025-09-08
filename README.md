@@ -13,7 +13,7 @@ This is my personal website showcasing my professional profile, skills, and port
 ## Technologies Used
 - **Frontend**: HTML5, CSS3, Bootstrap 5
 - **Icons**: Font Awesome
-- **Hosting**: [Add hosting details, if applicable]
+- **Hosting**: Deployed via GitHub Pages
 
 ## Contact
 For any questions or collaboration opportunities, feel free to reach out:
